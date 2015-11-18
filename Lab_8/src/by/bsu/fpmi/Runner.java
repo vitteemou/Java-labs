@@ -1,9 +1,7 @@
-//9.	Для двух заданных строк найти общую подстроку наибольшей длины.
 package by.bsu.fpmi;
 public class Runner {
     public static String findSubstring(String s1, String s2)
     {
-       // StringBuilder subStr = new StringBuilder("");
         String subStr = new String("");
         if(s1.isEmpty() || s2.isEmpty())
         {
